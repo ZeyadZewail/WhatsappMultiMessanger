@@ -1,0 +1,21 @@
+body{
+    width: 600px;
+    margin: 10px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+input[type=text]{
+    width: 300px;
+}
+
+
+
+
+
+td{
+    max-width: 300px;
+    word-wrap:break-word
+}
