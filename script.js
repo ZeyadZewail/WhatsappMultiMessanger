@@ -9,6 +9,12 @@ let objects = [];
 addButton.onclick = function(){
     let message = messageBox.value;
     let number = numberBox.value;
+
+    if(message == "" || number == ""){
+        alert("Missing Info");
+        return;
+    }
+
     let row = table.insertRow(-1);
     let cell1 = row.insertCell(0);
     let cell2 = row.insertCell(1);
@@ -44,7 +50,7 @@ function send(tabID,number,message){
     }, 2000);
     
 
-    return new Promise(resolve => setTimeout(resolve, 20000));
+    return new Promise(resolve => setTimeout(resolve, 15000));
 
 }
 

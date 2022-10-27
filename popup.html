@@ -7,33 +7,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <h1>Welcome to WhatsApp MultiMessanger</h1>
-    <hr>
-    <fieldset>
-      <legend>Please Input Message and Number</legend>
-      <p>
-        <label>Message:</label>
-      </p>
-      <textarea id="Message" cols="60"></textarea>
+  <body >
+    <div class = "d-flex flex-column p-2 bd-highlight">
+      <h1>Welcome to WhatsApp MultiMessanger</h1>
+      <hr>
+      <fieldset>
+        <legend>Please Input Message and Number</legend>
+        <p>
+          <label>Message:</label>
+        </p>
+        <textarea id="Message" cols="60"></textarea>
 
-      <p>
-        <label>Number:</label>
-        <input type="text" id="Number">
-      </p>
+        <p>
+          <label>Number:</label>
+          <input type="text" id="Number">
+        </p>
 
-      <button type="button" id ="addButton" class="btn btn-primary">Add</button>
-    </fieldset>
-    <hr>
-    <table id="Table" class="table table-light table-bordered" >
-      <tr>
-        <th>Number</th>
-        <th>Message</th>
-      </tr>
-    </table>
-    <hr>
-    <button type="button" id ="sendButton" class="btn btn-primary">Send All</button>
-
+        <button type="button" id ="addButton" class="btn btn-primary">Add</button>
+      </fieldset>
+      <hr>
+      <table id="Table" class="table table-light table-bordered" >
+        <tr>
+          <th>Number</th>
+          <th>Message</th>
+        </tr>
+      </table>
+      <hr>
+      <button type="button" id ="sendButton" class="btn btn-primary ">Send All</button>
+    </div>
   </body>
   
   <script src = "script.js"></script>

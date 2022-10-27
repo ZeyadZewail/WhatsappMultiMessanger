@@ -1,6 +1,5 @@
 body{
     width: 600px;
-    margin: 10px;
 }
 
 input:focus::placeholder {
@@ -10,8 +9,6 @@ input:focus::placeholder {
 input[type=text]{
     width: 300px;
 }
-
-
 
 
 
