@@ -4,6 +4,9 @@ let messageBox = document.getElementById("Message");
 let numberBox = document.getElementById("Number");
 let table = document.getElementById("Table");
 
+//+201004086798 zeyad
+
+
 let objects = [];
 
 addButton.onclick = function(){
@@ -61,7 +64,6 @@ function redirect(url){
 }
 
 function pressButton(){
-    console.log("copium");
     setTimeout(() => {
         let button = document.getElementsByClassName("tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq")[0];
         if(button != undefined){
@@ -70,7 +72,6 @@ function pressButton(){
             alert("Error could not send");
         }
         
-        console.log("copium2");
     }, 10000);
     
 }
